@@ -16,11 +16,8 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.core_core \
     androidx.preference_preference
 
-# Disable dependency on this lib for AOSP ROMs
-ifeq (lineage_$(PRODUCT_DEVICE),$(TARGET_PRODUCT))
 LOCAL_STATIC_JAVA_LIBRARIES := \
     org.lineageos.platform.internal
-endif
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
