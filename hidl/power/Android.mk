@@ -34,8 +34,6 @@ LOCAL_SHARED_LIBRARIES := \
     android.hardware.power@1.0 \
     vendor.lineage.power@1.0
 
-LOCAL_STATIC_LIBRARIES := libc++fs
-
 LOCAL_MODULE := android.hardware.power@1.0-service.exynos
 LOCAL_INIT_RC := android.hardware.power@1.0-service.exynos.rc
 LOCAL_MODULE_RELATIVE_PATH := hw
